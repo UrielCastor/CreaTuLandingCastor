@@ -1,0 +1,39 @@
+
+.titulo {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-producto {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card-producto:hover {
+  transform: scale(1.05);
+}
+
+.card-producto h3 {
+  margin-bottom: 10px;
+}
+
+.card-producto button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
