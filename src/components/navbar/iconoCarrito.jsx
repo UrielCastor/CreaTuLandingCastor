@@ -1,7 +1,7 @@
 function IconoCarrito() {
   return (
     <div>
-      🛒<span>Carrito</span>
+      🛒<span></span>
     </div>
   )
 }

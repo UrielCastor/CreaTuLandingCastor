@@ -35,13 +35,9 @@ function Navbar() {
             <li><a class="dropdown-item" href="#">Refrigeracion</a></li>       
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-disabled="true" href="#">< IconoCarrito /></a>
-        </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar"/>
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
+       <a class="nav-link carrito" aria-disabled="true" href="#">< IconoCarrito /></a>
       </form>
     </div>
   </div>
