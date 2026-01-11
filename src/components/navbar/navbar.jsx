@@ -1,11 +1,12 @@
 
 import IconoCarrito from "./iconoCarrito.jsx";
+import './navbar.css'
 function Navbar() {
   return (
     
 <nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">ElectrOulet </a>
+    <img class="logo navbar-brand" src="../src/assets/images/logo4.png" alt="Logo ElectrOulet"/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
