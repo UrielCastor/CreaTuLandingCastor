@@ -1,7 +1,9 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
 function IconoCarrito() {
   return (
     <div>
-      🛒<span></span>
+      {/* 🛒<span></span> */}
+        <i className="fa fa-cart-plus"></i>
     </div>
   )
 }

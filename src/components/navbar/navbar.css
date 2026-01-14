@@ -1,8 +1,41 @@
-.logo{
-    width: 50px;
-    height: 40px;
+.logo {
+    width: 60px;
+    height: 50px;
+    
+    
 }
-.carrito{
+.carrito {
     font-size: 24px;
     margin-right: 10px;
+}
+
+.contenedornavbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fa-cart-plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 20px;
+}
+
+.fa-cart-plus:hover {
+    color: yellow;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.logo:hover {
+    color: yellow;
+    transform: scale(2.5);
+    transition: 0.5s;
+    
+}
+.nav-link:hover {
+    color: yellow;
+    transform: scale(1.2);
+    transition: 0.3s;
 }

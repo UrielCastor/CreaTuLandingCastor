@@ -5,15 +5,15 @@ function Navbar() {
   return (
     
 <nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-  <div class="container-fluid">
+  <div class="container-fluid contenedornavbar">
     <img class="logo navbar-brand" src="../src/assets/images/logo4.png" alt="Logo ElectrOulet"/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link" aria-current="page" href="#">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Productos</a>
@@ -23,16 +23,16 @@ function Navbar() {
             Categorias
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Pc Armadas</a></li>
-            <li><a class="dropdown-item" href="#">Perifericos</a></li>
-            <li><a class="dropdown-item" href="#">GPU</a></li>
-            <li><a class="dropdown-item" href="#">Almacenamiento</a></li>
-            <li><a class="dropdown-item" href="#">Memorias</a></li>
-            <li><a class="dropdown-item" href="#">Mothers</a></li>
-            <li><a class="dropdown-item" href="#">Procesadores</a></li>
-            <li><a class="dropdown-item" href="#">Gabinetes</a></li>
-            <li><a class="dropdown-item" href="#">Monitores</a></li>
-            <li><a class="dropdown-item" href="#">Refrigeracion</a></li>       
+            <li><a class="dropdown-item nav-link" href="#">Pc Armadas</a></li>
+            <li><a class="dropdown-item nav-link" href="#">Perifericos</a></li>
+            <li><a class="dropdown-item nav-link" href="#">GPU</a></li>
+            <li><a class="dropdown-item nav-link" href="#">Almacenamiento</a></li>
+            <li><a class="dropdown-item nav-link" href="#">Memorias</a></li>
+            <li><a class="dropdown-item nav-link" href="#">Mothers</a></li>
+            <li><a class="dropdown-item nav-link" href="#">Procesadores</a></li>
+            <li><a class="dropdown-item nav-link" href="#">Gabinetes</a></li>
+            <li><a class="dropdown-item nav-link" href="#">Monitores</a></li>
+            <li><a class="dropdown-item nav-link" href="#">Refrigeracion</a></li>       
           </ul>
         </li>
       </ul>
@@ -46,5 +46,5 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export {Navbar};
 
