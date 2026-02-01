@@ -1,0 +1,30 @@
+.card {
+  width: 100%;
+  max-width: 280px;
+  padding: 1.5rem;
+
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 1px 10px 25px rgba(0,0,0,0.08);
+  border: black 1px solid;
+  margin-bottom: 20px;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.card-price {
+  font-size: 1.0rem;
+  color: #007BFF;
+  font-weight: bold;
+  margin-top: 10px;
+}
+img.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
