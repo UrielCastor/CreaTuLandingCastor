@@ -9,13 +9,12 @@ import { Link } from "react-router";
 
 
  const Cat = () => {
-  const { cat } = useParams();   // obtenemos la categoría de la URL
+  const { cat } = useParams();
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     obtenerProductos().then((response) => {
       if (response.success) {
-        // filtramos por categoría
         const filtered = response.data.filter(p => p.categoria === cat);
         setProducts(filtered);
       }
@@ -31,8 +30,8 @@ import { Link } from "react-router";
             <p className="card-price">Descripcion: {product.descripcion}</p>
             <img className="card-image" src={`/${product.imagen}`} alt={product.nombre} />
             <p className="card-price">Precio: ${product.precio}</p>
-            <ComprarButton />
             <Link to={`/Product/${product.id}`} className="btn-ver">Detalles</Link>
+            <ComprarButton />
           </Card>
         ))}
         {products.length === 0 && <p>No hay productos en esta categoría.</p>}
