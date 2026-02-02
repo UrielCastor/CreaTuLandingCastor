@@ -1,0 +1,67 @@
+.carousel-img-container {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente si hace falta */
+  height: 250px;           /* altura del carousel */
+  overflow: hidden;        /* recorta exceso */
+  margin-bottom: 10%;
+}
+.car-image {
+  width: auto;             /* mantiene proporción */
+  max-width: 80%;          /* ocupa hasta el 80% del contenedor */
+  height: 100%;            /* ocupa toda la altura del contenedor */
+  object-fit: contain;     /* evita deformar la imagen */
+}
+.titulo {
+  overflow-x: hidden;
+  color: #212529; 
+  text-decoration: none;
+  transition: 1s;
+  animation-name: animacionlogo;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-delay: 5;
+  animation-fill-mode: forwards;
+   font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem 0 1.5rem;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+.titulo::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+
+  background: linear-gradient(90deg, #0d6efd, #0a58ca);
+  border-radius: 4px;
+
+  margin: 0.5rem auto 0;
+}
+@keyframes animacionlogo {
+  0% {
+    opacity: 0;
+    color: rgb(1, 48, 48);
+    transform: translate(1000px);
+  }
+  25% {
+    opacity: 0.5;
+    color: rgb(2, 92, 92);
+    text-shadow: 8px 4px 8px rgb(0, 0, 0);
+  }
+  50% {
+    color: rgb(3, 133, 133);
+    text-shadow: 10px 6px 10px black;
+  }
+  75% {
+    color: rgb(3, 80, 168);
+    text-shadow: 15px 12px 15px black;
+  }
+  100% {
+    opacity: 1;
+    color: rgb(4, 50, 201);
+    text-shadow: 10px 12px 15px black;
+  }
+}

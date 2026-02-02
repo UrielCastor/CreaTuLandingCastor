@@ -3,8 +3,11 @@ import { Routes, Route } from "react-router";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import { Navbar } from './components/navbar/index.jsx';
-import { ListaProductos } from './pages/products/Products.jsx';
 import { Contact } from './pages/Contact/Contact';
+import { ListaProductos } from './pages/products/Products.jsx';
+import {Product} from './pages/products/Product.jsx';
+import {Cat} from './pages/products/Categoria.jsx';
+import { Home } from './home.jsx';
 
 
 
@@ -15,13 +18,15 @@ function App() {
     <>
    
       <Navbar/>
-    
+
       <Routes>
-        
+        <Route path="/" element={<Home/>} />
         <Route path="/Products" element={<ListaProductos />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Product/:id" element={<Product />} />
+        <Route path="/Categoria/:cat" element={<Cat />} />
      </Routes>
-
+         
     </>
 
   )

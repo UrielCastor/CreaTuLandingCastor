@@ -8,7 +8,7 @@ import { Products } from '../../data/Productos';
       if(conexion) {
         setTimeout(() => {
           resolve({success: true, data: Products});
-        }, 2000);
+        }, 0);
       } else {
         reject("Error al obtener los productos");
       }

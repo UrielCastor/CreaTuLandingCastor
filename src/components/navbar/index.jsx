@@ -2,8 +2,9 @@
 import React from "react";
 import IconoCarrito from "./iconoCarrito.jsx";
 import { NavLink } from "react-router";
+import { Link } from "react-router";
 import './navbar.css'
- const  Navbar = () => {
+const Navbar = () => {
   return (
 
     <nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -29,17 +30,17 @@ import './navbar.css'
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Categorias
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item nav-link" href="#">Pc Armadas</a></li>
-                <li><a class="dropdown-item nav-link" href="#">Perifericos</a></li>
-                <li><a class="dropdown-item nav-link" href="#">GPU</a></li>
-                <li><a class="dropdown-item nav-link" href="#">Almacenamiento</a></li>
-                <li><a class="dropdown-item nav-link" href="#">Memorias</a></li>
-                <li><a class="dropdown-item nav-link" href="#">Mothers</a></li>
-                <li><a class="dropdown-item nav-link" href="#">Procesadores</a></li>
-                <li><a class="dropdown-item nav-link" href="#">Gabinetes</a></li>
-                <li><a class="dropdown-item nav-link" href="#">Monitores</a></li>
-                <li><a class="dropdown-item nav-link" href="#">Refrigeracion</a></li>
+              <ul className="dropdown-menu">
+                <li><Link className="dropdown-item nav-link" to="/Categoria/PC">Pc Armadas</Link></li>
+                <li><Link className="dropdown-item nav-link" to="/Categoria/Perifericos">Perifericos</Link></li>
+                <li><Link className="dropdown-item nav-link" to="/Categoria/GPU">GPU</Link></li>
+                <li><Link className="dropdown-item nav-link" to="/Categoria/Almacenamiento">Almacenamiento</Link></li>
+                <li><Link className="dropdown-item nav-link" to="/Categoria/Memorias">Memorias</Link></li>
+                <li><Link className="dropdown-item nav-link" to="/Categoria/Mothers">Mothers</Link></li>
+                <li><Link className="dropdown-item nav-link" to="/Categoria/Procesadores">Procesadores</Link></li>
+                <li><Link className="dropdown-item nav-link" to="/Categoria/Gabinetes">Gabinetes</Link></li>
+                <li><Link className="dropdown-item nav-link" to="/Categoria/Monitores">Monitores</Link></li>
+                <li><Link className="dropdown-item nav-link" to="/Categoria/Refrigeracion">Refrigeracion</Link></li>
               </ul>
             </li>
           </ul>

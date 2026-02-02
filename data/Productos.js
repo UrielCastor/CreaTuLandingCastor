@@ -3,16 +3,16 @@ const Products =[
   {
     id: 1,
     nombre: "PC Gamer Ryzen 5",
-    categoria: "Pc Armadas",
+    categoria: "PC",
     precio: 950000,
     stock: 5,
-    imagen: "./src/assets/images/imgstore/pc-ryzen5.jpg",
+    imagen: "./src/assets/images/imgstore/pcryzen5.jpg",
     descripcion: "Ryzen 5, 16GB RAM, SSD 1TB, RTX 3060"
   },
   {
     id: 2,
     nombre: "PC Gamer Intel i5",
-    categoria: "Pc Armadas",
+    categoria: "PC",
     precio: 980000,
     stock: 4,
     imagen: "./src/assets/images/imgstore/pc-i5.jpg",
@@ -21,7 +21,7 @@ const Products =[
   {
     id: 3,
     nombre: "PC Oficina Básica",
-    categoria: "Pc Armadas",
+    categoria: "PC",
     precio: 420000,
     stock: 10,
     imagen: "./src/assets/images/imgstore/pc-oficina.jpg",
@@ -30,7 +30,7 @@ const Products =[
   {
     id: 4,
     nombre: "PC Gamer Ryzen 7",
-    categoria: "Pc Armadas",
+    categoria: "PC",
     precio: 1350000,
     stock: 3,
     imagen: "./src/assets/images/imgstore/pc-ryzen7.jpg",
@@ -39,7 +39,7 @@ const Products =[
   {
     id: 5,
     nombre: "PC Compacta Mini ITX",
-    categoria: "Pc Armadas",
+    categoria: "PC",
     precio: 780000,
     stock: 6,
     imagen: "./src/assets/images/imgstore/pc-mini.jpg",
