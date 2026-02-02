@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import { Navbar } from './components/navbar/index.jsx';
 import { Contact } from './pages/Contact/Contact';
-import { ListaProductos } from './pages/products/Products.jsx';
-import {Product} from './pages/products/Product.jsx';
-import {Cat} from './pages/products/Categoria.jsx';
+import { ListaProductos } from './pages/Products/Products.jsx';
+import {Product} from './pages/Products/Product.jsx';
+import {Cat} from './pages/Products/Categoria.jsx';
 import { Home } from './home.jsx';
 
 
