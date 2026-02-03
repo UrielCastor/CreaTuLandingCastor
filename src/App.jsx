@@ -8,6 +8,7 @@ import { ListaProductos } from './pages/Products/Products.jsx';
 import {Product} from './pages/Products/Product.jsx';
 import {Cat} from './pages/Products/Categoria.jsx';
 import { Home } from './home.jsx';
+import { Footer } from './components/Footer/Footer.jsx';
 
 
 
@@ -26,7 +27,9 @@ function App() {
         <Route path="/Product/:id" element={<Product />} />
         <Route path="/Categoria/:cat" element={<Cat />} />
      </Routes>
-         
+     <br></br>
+ 
+         <Footer/>
     </>
 
   )

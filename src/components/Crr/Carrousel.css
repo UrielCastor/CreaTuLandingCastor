@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center; /* centra horizontalmente */
   align-items: center;     /* centra verticalmente si hace falta */
-  height: 250px;           /* altura del carousel */
+  height: 350px;           /* altura del carousel */
   overflow: hidden;        /* recorta exceso */
   margin-bottom: 10%;
 }
